@@ -1,4 +1,10 @@
 # scion-orchestrator: Run a cross-platform SCION Host (Endhost or AS) 
+
+## Important Notice
+This tool moved to [scionproto-contrib/scion-orchestrator](https://github.com/scionproto-contrib/scion-orchestrator). This repository is in maintenance mode now.
+
+## Intro
+
 This tool called `scion-orchestrator` allows to setup SCION connectivity on a host, either as a regular process (`standalone`) or as installed service. Depending on the configuration it can run SCION infrastructure components (`Control Service`, `Border Router`, ...) to form a full AS or a regular `endhost` stack. `scion-orchestrator` is designed to support both cases and let the hosts running the SCION AS provide bootstrapping servers that the endhost can use to become part of the SCION AS.
 
 So far we do not provide pre-built binaries, so please take a look at **Get the binaries** to build all the tooling
